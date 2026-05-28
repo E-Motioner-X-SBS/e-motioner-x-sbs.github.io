@@ -1,0 +1,11 @@
+---
+title: "Progress Diary"
+---
+
+A chronological log of research progress, milestones, and daily work.
+
+## 2026
+
+### May
+
+- **2026-05-28**: Organization setup complete. All repositories initialized.

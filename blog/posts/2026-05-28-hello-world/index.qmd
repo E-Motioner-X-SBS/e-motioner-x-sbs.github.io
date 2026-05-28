@@ -1,0 +1,18 @@
+---
+title: "Starting the Journey"
+author: "Shuvam Banerji Seal"
+date: "2026-05-28"
+categories: [general, research]
+description: "Beginning the E-Motioner-X-SBS research organization and website."
+---
+
+Today marks the official start of the **E-Motioner-X-SBS** research organization. This organization will house all thesis research, including work on biomolecular Hamiltonians, contact mapping, and machine learning models for protein folding.
+
+## What's Next
+
+- Setting up the thesis LaTeX repository
+- Organizing literature review
+- Building the first Hamiltonian computation pipeline
+- Training initial protein folding models
+
+Stay tuned for regular updates on research progress.

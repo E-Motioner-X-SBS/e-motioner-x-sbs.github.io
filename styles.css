@@ -1,0 +1,30 @@
+/* Custom styles for E-Motioner-X-SBS */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.quarto-title-block .quarto-title {
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 0.5rem;
+}
+
+/* Research table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #1a1a2e;
+  color: #00bcd4;
+}
+
+table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #333;
+}

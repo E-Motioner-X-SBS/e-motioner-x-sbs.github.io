@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0a0a15"/>
+    </radialGradient>
+    <linearGradient id="helixGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00bcd4"/>
+      <stop offset="100%" style="stop-color:#0097a7"/>
+    </linearGradient>
+    <linearGradient id="graphGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ffab00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="245" fill="url(#bg)" stroke="#00bcd4" stroke-width="2"/>
+  
+  <!-- Outer ring -->
+  <circle cx="250" cy="250" r="235" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- DNA Helix (left side) -->
+  <g transform="translate(100, 120)">
+    <!-- Strand 1 -->
+    <path d="M 0,0 C 30,20 30,60 0,80 C -30,100 -30,140 0,160 C 30,180 30,220 0,240" 
+          fill="none" stroke="url(#helixGrad)" stroke-width="3" opacity="0.8"/>
+    <!-- Strand 2 -->
+    <path d="M 0,0 C -30,20 -30,60 0,80 C 30,100 30,140 0,160 C -30,180 -30,220 0,240" 
+          fill="none" stroke="#00bcd4" stroke-width="3" opacity="0.6"/>
+    <!-- Base pairs -->
+    <line x1="-15" y1="20" x2="15" y2="20" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-20" y1="50" x2="20" y2="50" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-15" y1="80" x2="15" y2="80" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-20" y1="110" x2="20" y2="110" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-15" y1="140" x2="15" y2="140" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-20" y1="170" x2="20" y2="170" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-15" y1="200" x2="15" y2="200" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-20" y1="230" x2="20" y2="230" stroke="#ffd700" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  
+  <!-- Contact map graph (right side) -->
+  <g transform="translate(280, 140)">
+    <!-- Nodes -->
+    <circle cx="30" cy="20" r="8" fill="#00bcd4" opacity="0.9"/>
+    <circle cx="80" cy="40" r="6" fill="#ffd700" opacity="0.9"/>
+    <circle cx="50" cy="90" r="7" fill="#00bcd4" opacity="0.9"/>
+    <circle cx="110" cy="80" r="5" fill="#ffd700" opacity="0.9"/>
+    <circle cx="90" cy="130" r="8" fill="#00bcd4" opacity="0.9"/>
+    <circle cx="140" cy="110" r="6" fill="#ffd700" opacity="0.9"/>
+    <circle cx="60" cy="170" r="7" fill="#00bcd4" opacity="0.9"/>
+    <circle cx="130" cy="170" r="5" fill="#ffd700" opacity="0.9"/>
+    <circle cx="30" cy="210" r="6" fill="#00bcd4" opacity="0.9"/>
+    <circle cx="100" cy="220" r="7" fill="#ffd700" opacity="0.9"/>
+    <circle cx="150" cy="200" r="5" fill="#00bcd4" opacity="0.9"/>
+    
+    <!-- Edges -->
+    <line x1="30" y1="20" x2="80" y2="40" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="20" x2="50" y2="90" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="80" y1="40" x2="110" y2="80" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="50" y1="90" x2="90" y2="130" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="110" y1="80" x2="140" y2="110" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="90" y1="130" x2="60" y2="170" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="90" y1="130" x2="130" y2="170" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="140" y1="110" x2="150" y2="200" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="60" y1="170" x2="30" y2="210" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="60" y1="170" x2="100" y2="220" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="130" y1="170" x2="100" y2="220" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="130" y1="170" x2="150" y2="200" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+    <line x1="100" y1="220" x2="150" y2="200" stroke="url(#graphGrad)" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Organization name arc (top) -->
+  <path id="topArc" d="M 80,250 A 170,170 0 0,1 420,250" fill="none"/>
+  <text font-family="'Courier New', monospace" font-size="18" fill="#00bcd4" font-weight="bold" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">E-MOTIONER-X-SBS</textPath>
+  </text>
+  
+  <!-- Tagline arc (bottom) -->
+  <path id="bottomArc" d="M 100,280 A 160,160 0 0,0 400,280" fill="none"/>
+  <text font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">COMPUTATIONAL · BIOPHYSICS · ML</textPath>
+  </text>
+  
+  <!-- Center emblem -->
+  <circle cx="250" cy="250" r="30" fill="none" stroke="#00bcd4" stroke-width="1.5" opacity="0.4"/>
+  <text x="250" y="245" font-family="'Courier New', monospace" font-size="14" fill="#00bcd4" text-anchor="middle" font-weight="bold">E-M</text>
+  <text x="250" y="262" font-family="'Courier New', monospace" font-size="8" fill="#888" text-anchor="middle">LAB</text>
+</svg>

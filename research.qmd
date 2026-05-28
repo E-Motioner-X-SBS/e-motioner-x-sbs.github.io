@@ -1,0 +1,25 @@
+---
+title: "Research"
+---
+
+## Research Themes
+
+### Biomolecular Hamiltonians
+
+Computing effective Hamiltonians for DNA strands, protein complexes, nucleotides, and amino acid chains. This involves quantum mechanical calculations and force field development for biological macromolecules.
+
+### Contact Mapping
+
+Deriving contact maps from protein–protein and protein–nucleotide interaction data. Contact maps provide a coarse-grained representation of molecular structures that is essential for understanding folding and interaction patterns.
+
+### ML for Protein Folding
+
+Training encoder-decoder and attention-based models inspired by OpenFold for efficient protein structure prediction. This work combines deep learning with biophysical principles.
+
+### Manning's Counterion Condensation
+
+Applying Manning's theory to understand charge condensation on polyelectrolyte chains, particularly DNA and charged proteins.
+
+### Magnus Expansion
+
+Using Magnus-based Hamiltonian formalism for time-evolution of biomolecular systems, providing an elegant mathematical framework for dynamics.

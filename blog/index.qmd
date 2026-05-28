@@ -1,0 +1,6 @@
+---
+title: "Blog"
+listing: posts
+contents: posts
+sort: "date desc"
+---

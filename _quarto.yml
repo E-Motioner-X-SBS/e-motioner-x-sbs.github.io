@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "E-Motioner-X-SBS"
+  site-url: https://e-motioner-x-sbs.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: blog/index.qmd
+        text: Blog
+      - href: diary/index.qmd
+        text: Diary
+      - href: publications.qmd
+        text: Publications
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme:
+      dark: darkly
+    css: styles.css
+    toc: true
+
+analytics:
+  google-analytics: "UA-XXXXXXXXX-X"

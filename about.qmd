@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+## Shuvam Banerji Seal
+
+BS-MS Student at IISER Kolkata
+
+**Major:** Chemistry | **Minor:** Computer Science | **CGPA:** 8.2
+
+### Research Interests
+
+- Computational Biophysics
+- Machine Learning for Protein Folding
+- Molecular Dynamics
+- Density Functional Theory
+- RAG Architectures
+
+### Supervisors
+
+- **Dr. Susmita Roy** — Principal Investigator (PI)
+- **Dr. Dwaipayan Roy** — Co-Principal Investigator (Co-PI)
+
+### Links
+
+- [Portfolio](https://shuvam-banerji-seal.github.io/)
+- [GitHub](https://github.com/Shuvam-Banerji-Seal)
+- [CV](https://shuvam-banerji-seal.github.io/My-CV)

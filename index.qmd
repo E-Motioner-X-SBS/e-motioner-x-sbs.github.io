@@ -1,0 +1,25 @@
+---
+title: "E-Motioner-X-SBS"
+---
+
+Welcome to the research website of **E-Motioner-X-SBS**, the computational biophysics research group of Shuvam Banerji Seal at IISER Kolkata.
+
+## About
+
+This website serves as a central hub for research progress, blog posts, and documentation of ongoing work in computational biophysics, machine learning for protein folding, and quantum chemistry.
+
+## Research Areas
+
+- **Biomolecular Hamiltonians** — Computing effective Hamiltonians for biological macromolecules
+- **Contact Mapping** — Deriving contact maps from interaction data
+- **ML for Protein Folding** — Deep learning models for structure prediction
+- **Manning Condensation** — Counterion condensation theory for polyelectrolytes
+- **Magnus Expansion** — Time-evolution formalism for biomolecular systems
+
+## Quick Links
+
+- [Research Overview](research.qmd)
+- [Blog](blog/index.qmd)
+- [Progress Diary](diary/index.qmd)
+- [Publications](publications.qmd)
+- [About](about.qmd)
