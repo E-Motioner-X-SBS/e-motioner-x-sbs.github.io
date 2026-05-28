@@ -6,15 +6,16 @@ title: "About"
 
 BS-MS Student at IISER Kolkata
 
-**Major:** Chemistry | **Minor:** Computer Science | **CGPA:** 8.2
+**Major:** Computational Chemistry | **Minor:** Computational Science (Information Retrieval) | **CGPA:** 8.2
 
 ### Research Interests
 
+- Computational Chemistry
 - Computational Biophysics
 - Machine Learning for Protein Folding
 - Molecular Dynamics
 - Density Functional Theory
-- RAG Architectures
+- Information Retrieval & RAG Architectures
 
 ### Supervisors
 
